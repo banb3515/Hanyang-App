@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             mc:Ignorable="d"
+             BackgroundColor="White"
+             x:Class="Hanyang.SubPages.ArticlePage">
+    <Grid>
+        <StackLayout Margin="5,5">
+            <BoxView BackgroundColor="Black" 
+                         HeightRequest="2"
+                         HorizontalOptions="FillAndExpand"/>
+
+            <!--#region 글 제목-->
+            <Label x:Name="ArticleTitle" 
+                       FontSize="24"
+                       Margin="10,0"
+                       LineBreakMode="WordWrap"
+                       TextColor="Black"/>
+            <!--#endregion-->
+
+            <!--#region 작성자, 작성 날짜-->
+            <Grid Margin="10,-2,10,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                
+                <Label x:Name="ArticleWriter"
+                           FontSize="14"
+                           TextColor="Black"/>
+                <Label x:Name="ArticleDate" 
+                           FontSize="14"
+                           HorizontalOptions="End"
+                           TextColor="#323232"/>
+            </Grid>
+            <!--#endregion-->
+
+            <BoxView BackgroundColor="Black" 
+                         HeightRequest="2"
+                         HorizontalOptions="FillAndExpand"/>
+
+            <Label x:Name="Desc"
+                   TextColor="Gray"
+                   Margin="15,0"
+                   FontSize="14"/>
+
+            <BoxView BackgroundColor="Black" 
+                         HeightRequest="1"
+                         HorizontalOptions="FillAndExpand"/>
+
+            <WebView x:Name="WebView"
+                     Margin="1,0"
+                     android:WebView.DisplayZoomControls="False"
+                     android:WebView.EnableZoomControls="True"
+                     VerticalOptions="FillAndExpand"/>
+
+            <BoxView x:Name="ViewWebLine"
+                     BackgroundColor="Black" 
+                     HeightRequest="1"
+                     Margin="0,5,0,5"
+                     HorizontalOptions="FillAndExpand"/>
+
+            <Label x:Name="ViewWeb" 
+                   Text="웹에서 보기 🔗"
+                   Margin="0,0,0,2"
+                   TextColor="Blue"
+                   HorizontalOptions="Center"
+                   FontSize="16">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="ViewWeb_Tapped"
+                                              NumberOfTapsRequired="1"/>
+                </Label.GestureRecognizers>
+            </Label>
+
+            <Label x:Name="ViewWebDesc"
+                   Text="⊙ 화면이 제대로 보이지 않을 경우 웹에서 보기를 클릭해주세요."
+                   LineBreakMode="WordWrap"
+                   Margin="10,0,0,8"
+                   TextColor="Gray"
+                   FontSize="14"/>
+            <!--#endregion-->
+        </StackLayout>
+
+        <ImageButton x:Name="TopButton"
+                     HeightRequest="50"
+                     WidthRequest="50"
+                     HorizontalOptions="End"
+                     VerticalOptions="End"
+                     Margin="0,0,10,10"
+                     Clicked="TopButton_Clicked"
+                     Opacity="0.5"
+                     BackgroundColor="Transparent"
+                     Source="arrow_up.png"/>
+    </Grid>
+</ContentPage>
