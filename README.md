@@ -52,7 +52,7 @@
 > ### **개발 정보**
 >
 > -   언어 - [C#](https://docs.microsoft.com/ko-kr/dotnet/csharp/)
-> -   앱 프레임워크 - [자마린(Xamarin)](https://docs.microsoft.com/ko-kr/xamarin/get-started/what-is-xamarin)
+> -   앱 프레임워크 - [자마린 (Xamarin)](https://docs.microsoft.com/ko-kr/xamarin/get-started/what-is-xamarin)
 > -   웹서버 프레임워크 - [ASP.NET](https://dotnet.microsoft.com/apps/aspnet)
 > -   사용된 패키지
 >     -   [AiForms.Dialogs](https://github.com/muak/AiForms.Dialogs)
