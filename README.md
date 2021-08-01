@@ -40,12 +40,12 @@
 > ### **스크린샷 (시연 영상)**
 >
 > -   스크린샷  
->     ![한양이 스크린샷1](https://github.com/banb3515/Hanyang/blob/master/Screenshots/Screenshot1.png?raw=true)
+>     ![한양이 스크린샷1](https://gitlab.com/BanB3515/Hanyang-App/-/raw/main/Screenshots/Screenshot1.png)
 >
->     ![한양이 스크린샷2](https://github.com/banb3515/Hanyang/blob/master/Screenshots/Screenshot2.png?raw=true)
+>     ![한양이 스크린샷2](https://gitlab.com/BanB3515/Hanyang-App/-/raw/main/Screenshots/Screenshot2.png)
 >
 > -   시연 영상  
->     [![한양이 시연 영상](https://github.com/banb3515/Hanyang/blob/master/Screenshots/Thumbnail.png?raw=true)](https://youtu.be/2rMCJMG5Ohc?t=0s)
+>     [![한양이 시연 영상](https://img.youtube.com/vi/2rMCJMG5Ohc/0.jpg)](https://youtu.be/2rMCJMG5Ohc)
 
 ---
 
