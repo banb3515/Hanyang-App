@@ -1,6 +1,6 @@
 # **한양이 앱 (Hanyang App)**
 
-> ### **[Portfolio - Hanyang-App](http://banb.work/Portfolio/Hanyang-App)**
+> ### **[Project - Hanyang-App](http://banb.work/Project/Hanyang-App)**
 
 ---
 
